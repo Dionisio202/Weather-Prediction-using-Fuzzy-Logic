@@ -1,0 +1,1184 @@
+Regla: Si wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.65, Confianza: 0.83, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto entonces precip_cat_alto
+Soporte: 0.73, Confianza: 0.79, Lift: 1.28
+-----
+Regla: Si wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.65, Confianza: 0.78, Lift: 1.08
+-----
+Regla: Si wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.71, Confianza: 0.59, Lift: 1.05
+-----
+Regla: Si wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.87, Confianza: 0.55, Lift: 1.05
+-----
+Regla: Si wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.73, Confianza: 0.54, Lift: 1.06
+-----
+Regla: Si wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.65, Lift: 1.12
+-----
+Regla: Si clouds_cat_medio entonces precip_cat_bajo
+Soporte: 0.78, Confianza: 0.61, Lift: 1.15
+-----
+Regla: Si clouds_cat_medio entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.57, Lift: 1.36
+-----
+Regla: Si wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.57, Lift: 1.34
+-----
+Regla: Si wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.51, Confianza: 0.81, Lift: 1.27
+-----
+Regla: Si solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.50, Confianza: 0.77, Lift: 1.44
+-----
+Regla: Si solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.78, Confianza: 0.68, Lift: 1.15
+-----
+Regla: Si solar_rad_cat_bajo entonces precip_cat_alto
+Soporte: 0.78, Confianza: 0.84, Lift: 1.19
+-----
+Regla: Si slp_cat_medio entonces precip_cat_bajo
+Soporte: 0.86, Confianza: 0.79, Lift: 1.01
+-----
+Regla: Si clouds_cat_bajo entonces precip_cat_bajo
+Soporte: 0.58, Confianza: 0.71, Lift: 2.43
+-----
+Regla: Si wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.65, Confianza: 0.65, Lift: 1.44
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.51, Confianza: 0.50, Lift: 1.09
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.54, Lift: 1.09
+-----
+Regla: Si wind_gust_spd_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.60, Confianza: 0.56, Lift: 1.07
+-----
+Regla: Si t_dni_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.53, Confianza: 0.86, Lift: 1.09
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.80, Confianza: 0.71, Lift: 1.11
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.66, Confianza: 0.83, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto entonces precip_cat_alto
+Soporte: 0.52, Confianza: 0.53, Lift: 1.28
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.80, Confianza: 0.85, Lift: 1.63
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.56, Confianza: 0.66, Lift: 1.25
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.82, Confianza: 0.78, Lift: 1.69
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.76, Confianza: 0.63, Lift: 1.28
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.79, Confianza: 0.60, Lift: 1.30
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.72, Confianza: 0.51, Lift: 1.06
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.78, Confianza: 0.75, Lift: 1.13
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.83, Confianza: 0.77, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_medio entonces precip_cat_alto
+Soporte: 0.69, Confianza: 0.57, Lift: 1.03
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.77, Confianza: 0.62, Lift: 1.11
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo entonces precip_cat_alto
+Soporte: 0.50, Confianza: 0.55, Lift: 1.33
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.62, Confianza: 0.62, Lift: 1.27
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.65, Confianza: 0.70, Lift: 1.29
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.58, Confianza: 0.53, Lift: 1.08
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.75, Confianza: 0.85, Lift: 1.05
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.76, Confianza: 0.81, Lift: 1.05
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.75, Confianza: 0.83, Lift: 1.06
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.54, Confianza: 0.69, Lift: 1.12
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto entonces precip_cat_bajo
+Soporte: 0.67, Confianza: 0.73, Lift: 1.15
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.52, Lift: 1.36
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.58, Confianza: 0.72, Lift: 1.34
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.75, Confianza: 0.66, Lift: 1.27
+-----
+Regla: Si t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.84, Confianza: 0.61, Lift: 1.44
+-----
+Regla: Si t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.75, Confianza: 0.60, Lift: 1.15
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto entonces precip_cat_alto
+Soporte: 0.85, Confianza: 0.61, Lift: 1.19
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio entonces precip_cat_bajo
+Soporte: 0.85, Confianza: 0.87, Lift: 1.01
+-----
+Regla: Si clouds_cat_bajo, t_ghi_cat_alto entonces precip_cat_bajo
+Soporte: 0.67, Confianza: 0.61, Lift: 2.43
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.50, Confianza: 0.51, Lift: 1.44
+-----
+Regla: Si wind_dir_cat_este, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.50, Confianza: 0.63, Lift: 1.21
+-----
+Regla: Si wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.81, Confianza: 0.57, Lift: 1.00
+-----
+Regla: Si wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.71, Confianza: 0.70, Lift: 1.05
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.59, Confianza: 0.84, Lift: 1.08
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.81, Confianza: 0.57, Lift: 1.05
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.85, Confianza: 0.69, Lift: 1.40
+-----
+Regla: Si wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.60, Confianza: 0.68, Lift: 1.10
+-----
+Regla: Si wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.83, Lift: 1.29
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.76, Confianza: 0.63, Lift: 1.42
+-----
+Regla: Si wind_dir_cat_este, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.55, Confianza: 0.80, Lift: 1.08
+-----
+Regla: Si wind_dir_cat_este, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.84, Confianza: 0.85, Lift: 1.05
+-----
+Regla: Si wind_gust_spd_cat_alto, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.71, Confianza: 0.66, Lift: 1.68
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.69, Lift: 1.05
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.82, Confianza: 0.58, Lift: 1.06
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.65, Confianza: 0.51, Lift: 1.31
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.61, Lift: 1.22
+-----
+Regla: Si wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.82, Confianza: 0.84, Lift: 1.18
+-----
+Regla: Si wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.50, Confianza: 0.57, Lift: 1.21
+-----
+Regla: Si wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.54, Confianza: 0.61, Lift: 1.39
+-----
+Regla: Si wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.57, Confianza: 0.71, Lift: 1.44
+-----
+Regla: Si wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.77, Lift: 1.07
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.80, Lift: 1.22
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.74, Confianza: 0.64, Lift: 1.05
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.68, Confianza: 0.80, Lift: 1.06
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.67, Confianza: 0.54, Lift: 1.12
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.73, Lift: 1.55
+-----
+Regla: Si wind_dir_cat_norte, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.52, Confianza: 0.69, Lift: 1.35
+-----
+Regla: Si wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.62, Confianza: 0.62, Lift: 1.14
+-----
+Regla: Si wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.78, Confianza: 0.73, Lift: 1.06
+-----
+Regla: Si solar_rad_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.82, Confianza: 0.77, Lift: 1.90
+-----
+Regla: Si solar_rad_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.61, Confianza: 0.65, Lift: 1.11
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.86, Confianza: 0.69, Lift: 1.14
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.67, Lift: 1.13
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.65, Confianza: 0.63, Lift: 1.11
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.79, Confianza: 0.50, Lift: 1.15
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.60, Lift: 1.36
+-----
+Regla: Si t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.61, Lift: 1.34
+-----
+Regla: Si t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.51, Confianza: 0.60, Lift: 1.27
+-----
+Regla: Si t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.51, Confianza: 0.51, Lift: 1.44
+-----
+Regla: Si t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.72, Lift: 1.15
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.86, Confianza: 0.85, Lift: 1.19
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.81, Confianza: 0.74, Lift: 1.01
+-----
+Regla: Si clouds_cat_bajo, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.76, Confianza: 0.63, Lift: 2.43
+-----
+Regla: Si wind_gust_spd_cat_alto, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.81, Confianza: 0.84, Lift: 1.44
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.70, Confianza: 0.63, Lift: 1.58
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.66, Confianza: 0.77, Lift: 2.11
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_sur entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.76, Lift: 1.10
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.60, Confianza: 0.69, Lift: 1.52
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.76, Confianza: 0.57, Lift: 1.30
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo entonces precip_cat_medio
+Soporte: 0.83, Confianza: 0.74, Lift: 1.44
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio entonces precip_cat_bajo
+Soporte: 0.86, Confianza: 0.65, Lift: 1.17
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.62, Confianza: 0.69, Lift: 1.35
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.63, Confianza: 0.78, Lift: 1.54
+-----
+Regla: Si solar_rad_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.51, Lift: 1.35
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.52, Confianza: 0.61, Lift: 1.34
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.50, Confianza: 0.72, Lift: 1.36
+-----
+Regla: Si wind_gust_spd_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.63, Confianza: 0.73, Lift: 1.49
+-----
+Regla: Si solar_rad_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.62, Confianza: 0.68, Lift: 2.11
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.60, Confianza: 0.67, Lift: 1.10
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.83, Confianza: 0.68, Lift: 1.06
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.67, Confianza: 0.71, Lift: 1.29
+-----
+Regla: Si slp_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.71, Confianza: 0.87, Lift: 1.43
+-----
+Regla: Si slp_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.82, Lift: 1.15
+-----
+Regla: Si clouds_cat_bajo, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.62, Confianza: 0.61, Lift: 2.38
+-----
+Regla: Si wind_gust_spd_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.58, Confianza: 0.68, Lift: 1.07
+-----
+Regla: Si wind_gust_spd_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.57, Lift: 1.53
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.75, Confianza: 0.51, Lift: 1.18
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.70, Confianza: 0.63, Lift: 1.26
+-----
+Regla: Si clouds_cat_bajo, slp_cat_medio entonces precip_cat_bajo
+Soporte: 0.80, Confianza: 0.55, Lift: 2.37
+-----
+Regla: Si clouds_cat_bajo, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.54, Confianza: 0.85, Lift: 1.07
+-----
+Regla: Si wind_gust_spd_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.61, Confianza: 0.58, Lift: 1.42
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.52, Confianza: 0.51, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.77, Confianza: 0.76, Lift: 1.07
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.70, Confianza: 0.53, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.74, Confianza: 0.86, Lift: 1.11
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.63, Confianza: 0.73, Lift: 1.09
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.85, Confianza: 0.57, Lift: 1.07
+-----
+Regla: Si t_ghi_cat_alto, t_dni_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.63, Confianza: 0.74, Lift: 1.09
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.52, Confianza: 0.56, Lift: 1.11
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.84, Confianza: 0.66, Lift: 1.09
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.66, Confianza: 0.83, Lift: 1.07
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.64, Confianza: 0.64, Lift: 1.07
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.82, Lift: 1.11
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.74, Confianza: 0.61, Lift: 1.09
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_dir_cat_oeste entonces precip_cat_alto
+Soporte: 0.59, Confianza: 0.78, Lift: 1.11
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.69, Confianza: 0.76, Lift: 1.63
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.87, Confianza: 0.83, Lift: 1.25
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.63, Confianza: 0.51, Lift: 1.69
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.72, Confianza: 0.74, Lift: 1.28
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.74, Confianza: 0.69, Lift: 1.30
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.61, Confianza: 0.77, Lift: 1.06
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.81, Confianza: 0.69, Lift: 1.13
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.81, Confianza: 0.57, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_alto
+Soporte: 0.58, Confianza: 0.63, Lift: 1.03
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.68, Confianza: 0.76, Lift: 1.11
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, solar_rad_cat_bajo entonces precip_cat_alto
+Soporte: 0.54, Confianza: 0.74, Lift: 1.33
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.71, Confianza: 0.71, Lift: 1.27
+-----
+Regla: Si clouds_cat_alto, t_ghi_cat_alto, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.64, Confianza: 0.79, Lift: 1.29
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.75, Confianza: 0.87, Lift: 1.70
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.86, Confianza: 0.70, Lift: 1.65
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.80, Lift: 1.63
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_alto
+Soporte: 0.51, Confianza: 0.70, Lift: 1.24
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.80, Confianza: 0.66, Lift: 1.05
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.84, Lift: 1.74
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_este, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.71, Confianza: 0.64, Lift: 1.62
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.82, Confianza: 0.69, Lift: 1.25
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.60, Confianza: 0.56, Lift: 1.05
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.85, Confianza: 0.70, Lift: 1.20
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_alto
+Soporte: 0.65, Confianza: 0.73, Lift: 1.16
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.76, Confianza: 0.61, Lift: 1.04
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.68, Confianza: 0.52, Lift: 1.26
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.87, Confianza: 0.76, Lift: 1.24
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.70, Confianza: 0.72, Lift: 1.69
+-----
+Regla: Si clouds_cat_alto, wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.86, Confianza: 0.75, Lift: 1.69
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.73, Confianza: 0.62, Lift: 1.73
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.53, Confianza: 0.67, Lift: 1.67
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.87, Confianza: 0.69, Lift: 1.30
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.64, Confianza: 0.62, Lift: 1.06
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.56, Confianza: 0.71, Lift: 1.13
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.67, Confianza: 0.63, Lift: 1.09
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_alto
+Soporte: 0.68, Confianza: 0.57, Lift: 1.03
+-----
+Regla: Si clouds_cat_alto, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.72, Confianza: 0.70, Lift: 1.11
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.57, Confianza: 0.65, Lift: 1.33
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.81, Confianza: 0.51, Lift: 1.27
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_alto, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.68, Confianza: 0.71, Lift: 1.29
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.51, Confianza: 0.76, Lift: 1.49
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.53, Lift: 1.05
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.72, Confianza: 0.79, Lift: 1.29
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.66, Confianza: 0.86, Lift: 1.05
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.62, Confianza: 0.57, Lift: 1.54
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.62, Confianza: 0.83, Lift: 1.61
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.65, Confianza: 0.69, Lift: 1.16
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.60, Confianza: 0.57, Lift: 1.02
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.55, Confianza: 0.85, Lift: 1.12
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.57, Confianza: 0.86, Lift: 1.10
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_alto
+Soporte: 0.79, Confianza: 0.62, Lift: 1.03
+-----
+Regla: Si clouds_cat_alto, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.83, Confianza: 0.65, Lift: 1.12
+-----
+Regla: Si clouds_cat_alto, solar_rad_cat_bajo, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.81, Confianza: 0.63, Lift: 1.32
+-----
+Regla: Si clouds_cat_alto, wind_gust_spd_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.82, Lift: 1.27
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.86, Confianza: 0.80, Lift: 1.21
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.81, Confianza: 0.53, Lift: 1.00
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.84, Lift: 1.05
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.62, Confianza: 0.55, Lift: 1.08
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.70, Confianza: 0.64, Lift: 1.05
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.55, Confianza: 0.57, Lift: 1.40
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.70, Confianza: 0.68, Lift: 1.10
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.80, Confianza: 0.59, Lift: 1.29
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_dir_cat_este entonces precip_cat_alto
+Soporte: 0.76, Confianza: 0.71, Lift: 1.42
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.62, Confianza: 0.57, Lift: 1.08
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_este, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.84, Confianza: 0.59, Lift: 1.05
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.79, Confianza: 0.73, Lift: 1.68
+-----
+Regla: Si t_dni_cat_alto, t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.52, Confianza: 0.65, Lift: 1.05
+-----
+Regla: Si t_dni_cat_alto, t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.62, Confianza: 0.68, Lift: 1.06
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.53, Confianza: 0.74, Lift: 1.31
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_medio
+Soporte: 0.68, Confianza: 0.63, Lift: 1.22
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.69, Confianza: 0.83, Lift: 1.18
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.56, Confianza: 0.68, Lift: 1.21
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.57, Confianza: 0.86, Lift: 1.39
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.78, Confianza: 0.73, Lift: 1.44
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.61, Confianza: 0.70, Lift: 1.07
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.78, Confianza: 0.73, Lift: 1.22
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.83, Confianza: 0.54, Lift: 1.05
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.68, Confianza: 0.73, Lift: 1.06
+-----
+Regla: Si t_ghi_cat_alto, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.73, Confianza: 0.60, Lift: 1.12
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.85, Confianza: 0.57, Lift: 1.55
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_norte, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.78, Confianza: 0.81, Lift: 1.35
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.56, Confianza: 0.68, Lift: 1.14
+-----
+Regla: Si t_ghi_cat_alto, wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.59, Confianza: 0.60, Lift: 1.06
+-----
+Regla: Si t_ghi_cat_alto, solar_rad_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.82, Confianza: 0.84, Lift: 1.90
+-----
+Regla: Si t_ghi_cat_alto, solar_rad_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.68, Lift: 1.11
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.80, Confianza: 0.53, Lift: 1.14
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.53, Confianza: 0.54, Lift: 1.13
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.76, Confianza: 0.68, Lift: 1.11
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.56, Confianza: 0.60, Lift: 1.15
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.63, Confianza: 0.51, Lift: 1.36
+-----
+Regla: Si t_ghi_cat_alto, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.52, Confianza: 0.51, Lift: 1.34
+-----
+Regla: Si t_ghi_cat_alto, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.62, Confianza: 0.54, Lift: 1.27
+-----
+Regla: Si t_ghi_cat_alto, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.56, Confianza: 0.62, Lift: 1.44
+-----
+Regla: Si t_ghi_cat_alto, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.60, Confianza: 0.68, Lift: 1.15
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.85, Confianza: 0.60, Lift: 1.19
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.63, Confianza: 0.77, Lift: 1.01
+-----
+Regla: Si clouds_cat_bajo, t_ghi_cat_alto, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.65, Confianza: 0.74, Lift: 2.43
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.55, Confianza: 0.78, Lift: 1.44
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.70, Confianza: 0.75, Lift: 1.58
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.75, Confianza: 0.64, Lift: 2.11
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_medio
+Soporte: 0.53, Confianza: 0.70, Lift: 1.10
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.72, Confianza: 0.65, Lift: 1.52
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.73, Confianza: 0.73, Lift: 1.30
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, t_ghi_cat_alto entonces precip_cat_medio
+Soporte: 0.75, Confianza: 0.72, Lift: 1.44
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, slp_cat_medio entonces precip_cat_bajo
+Soporte: 0.72, Confianza: 0.82, Lift: 1.17
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.54, Confianza: 0.53, Lift: 1.35
+-----
+Regla: Si clouds_cat_medio, t_ghi_cat_alto, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.82, Lift: 1.54
+-----
+Regla: Si t_ghi_cat_alto, solar_rad_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.53, Confianza: 0.83, Lift: 1.35
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.75, Confianza: 0.83, Lift: 1.34
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.56, Confianza: 0.77, Lift: 1.36
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.66, Confianza: 0.65, Lift: 1.49
+-----
+Regla: Si t_ghi_cat_alto, solar_rad_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.75, Confianza: 0.60, Lift: 2.11
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.75, Confianza: 0.68, Lift: 1.10
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.75, Confianza: 0.58, Lift: 1.06
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.80, Confianza: 0.56, Lift: 1.29
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.72, Confianza: 0.59, Lift: 1.43
+-----
+Regla: Si t_ghi_cat_alto, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.80, Confianza: 0.70, Lift: 1.15
+-----
+Regla: Si clouds_cat_bajo, t_ghi_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.76, Confianza: 0.62, Lift: 2.38
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.72, Confianza: 0.86, Lift: 1.07
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.53, Confianza: 0.76, Lift: 1.53
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.58, Confianza: 0.75, Lift: 1.18
+-----
+Regla: Si solar_rad_cat_bajo, t_ghi_cat_alto, wind_gust_spd_cat_alto entonces precip_cat_medio
+Soporte: 0.58, Confianza: 0.73, Lift: 1.26
+-----
+Regla: Si clouds_cat_bajo, t_ghi_cat_alto, slp_cat_medio entonces precip_cat_bajo
+Soporte: 0.83, Confianza: 0.69, Lift: 2.37
+-----
+Regla: Si clouds_cat_bajo, t_ghi_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.70, Confianza: 0.65, Lift: 1.07
+-----
+Regla: Si t_ghi_cat_alto, wind_gust_spd_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.79, Confianza: 0.70, Lift: 1.42
+-----
+Regla: Si t_dni_cat_alto, wind_dir_cat_este, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.81, Confianza: 0.50, Lift: 1.21
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este, wind_gust_spd_cat_medio entonces precip_cat_medio
+Soporte: 0.75, Confianza: 0.71, Lift: 1.29
+-----
+Regla: Si wind_dir_cat_este, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.74, Confianza: 0.85, Lift: 1.09
+-----
+Regla: Si wind_dir_cat_este, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.63, Confianza: 0.83, Lift: 1.22
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_este, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.85, Confianza: 0.51, Lift: 1.55
+-----
+Regla: Si wind_dir_cat_este, wind_gust_spd_cat_medio, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.77, Confianza: 0.57, Lift: 1.20
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.76, Confianza: 0.62, Lift: 1.00
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.55, Lift: 1.05
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.80, Confianza: 0.83, Lift: 1.50
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.50, Confianza: 0.52, Lift: 1.09
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.53, Confianza: 0.61, Lift: 1.08
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.62, Confianza: 0.86, Lift: 1.03
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_este, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.56, Confianza: 0.56, Lift: 1.04
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.69, Lift: 1.40
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.52, Confianza: 0.54, Lift: 1.10
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.60, Confianza: 0.86, Lift: 1.29
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.65, Confianza: 0.66, Lift: 1.42
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.82, Confianza: 0.51, Lift: 1.08
+-----
+Regla: Si wind_dir_cat_este, t_dni_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.51, Lift: 1.05
+-----
+Regla: Si wind_gust_spd_cat_alto, wind_dir_cat_este, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.72, Confianza: 0.86, Lift: 1.68
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.65, Confianza: 0.52, Lift: 1.18
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.63, Lift: 1.42
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.52, Confianza: 0.80, Lift: 1.38
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_este, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.61, Confianza: 0.76, Lift: 1.39
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_alto, wind_dir_cat_este entonces precip_cat_medio
+Soporte: 0.62, Confianza: 0.63, Lift: 1.91
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.69, Confianza: 0.57, Lift: 1.11
+-----
+Regla: Si slp_cat_medio, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.66, Lift: 1.28
+-----
+Regla: Si wind_gust_spd_cat_alto, wind_dir_cat_este, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.80, Confianza: 0.79, Lift: 1.80
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_este, slp_cat_medio entonces precip_cat_alto
+Soporte: 0.83, Confianza: 0.58, Lift: 1.42
+-----
+Regla: Si wind_gust_spd_cat_alto, wind_dir_cat_este, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.59, Lift: 1.66
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.58, Confianza: 0.68, Lift: 1.31
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, wind_gust_spd_cat_medio entonces precip_cat_medio
+Soporte: 0.62, Confianza: 0.74, Lift: 1.22
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.54, Confianza: 0.74, Lift: 1.18
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.52, Lift: 1.21
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.59, Confianza: 0.60, Lift: 1.39
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.52, Confianza: 0.85, Lift: 1.44
+-----
+Regla: Si t_dni_cat_alto, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.74, Lift: 1.07
+-----
+Regla: Si t_dni_cat_alto, solar_rad_cat_bajo, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.80, Confianza: 0.66, Lift: 1.22
+-----
+Regla: Si t_dni_cat_alto, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.64, Confianza: 0.65, Lift: 1.05
+-----
+Regla: Si t_dni_cat_alto, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.83, Confianza: 0.69, Lift: 1.06
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.61, Confianza: 0.52, Lift: 1.54
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.64, Confianza: 0.83, Lift: 2.60
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.85, Confianza: 0.53, Lift: 1.65
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.55, Lift: 1.22
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, wind_gust_spd_cat_medio entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.69, Lift: 1.22
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_bajo
+Soporte: 0.57, Confianza: 0.55, Lift: 1.31
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_medio
+Soporte: 0.52, Confianza: 0.62, Lift: 1.22
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.86, Confianza: 0.85, Lift: 1.39
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_alto
+Soporte: 0.82, Confianza: 0.59, Lift: 1.18
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.50, Lift: 1.21
+-----
+Regla: Si solar_rad_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.59, Confianza: 0.76, Lift: 2.12
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.51, Confianza: 0.53, Lift: 1.04
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.73, Confianza: 0.67, Lift: 1.18
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.65, Confianza: 0.74, Lift: 1.38
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.54, Confianza: 0.55, Lift: 1.42
+-----
+Regla: Si slp_cat_medio, wind_gust_spd_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.79, Confianza: 0.66, Lift: 1.08
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_gust_spd_cat_medio entonces precip_cat_alto
+Soporte: 0.74, Confianza: 0.83, Lift: 1.21
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.78, Confianza: 0.77, Lift: 1.55
+-----
+Regla: Si wind_dir_cat_norte, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.71, Lift: 1.35
+-----
+Regla: Si wind_dir_cat_sur, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.75, Confianza: 0.63, Lift: 1.14
+-----
+Regla: Si wind_dir_cat_sur, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.63, Lift: 1.06
+-----
+Regla: Si solar_rad_cat_medio, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.84, Confianza: 0.54, Lift: 1.90
+-----
+Regla: Si solar_rad_cat_medio, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.54, Confianza: 0.79, Lift: 1.11
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.64, Confianza: 0.58, Lift: 1.14
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.83, Lift: 1.13
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.80, Confianza: 0.52, Lift: 1.11
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_norte, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.54, Lift: 1.66
+-----
+Regla: Si clouds_cat_medio, wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.58, Confianza: 0.60, Lift: 1.49
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.57, Confianza: 0.68, Lift: 1.65
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.67, Lift: 1.27
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.66, Lift: 1.66
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.77, Confianza: 0.84, Lift: 1.01
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.67, Confianza: 0.82, Lift: 1.53
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_norte, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.54, Confianza: 0.58, Lift: 1.39
+-----
+Regla: Si wind_dir_cat_norte, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.81, Confianza: 0.59, Lift: 1.39
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.67, Confianza: 0.54, Lift: 1.30
+-----
+Regla: Si solar_rad_cat_bajo, wind_dir_cat_sur, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.71, Confianza: 0.66, Lift: 1.02
+-----
+Regla: Si wind_dir_cat_sur, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.57, Confianza: 0.69, Lift: 1.17
+-----
+Regla: Si wind_dir_cat_sur, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.59, Lift: 1.02
+-----
+Regla: Si solar_rad_cat_medio, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_bajo
+Soporte: 0.53, Confianza: 0.69, Lift: 1.90
+-----
+Regla: Si solar_rad_cat_medio, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.52, Confianza: 0.58, Lift: 1.11
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_alto
+Soporte: 0.60, Confianza: 0.57, Lift: 1.14
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_gust_spd_cat_bajo entonces precip_cat_medio
+Soporte: 0.87, Confianza: 0.78, Lift: 1.12
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.73, Confianza: 0.74, Lift: 1.58
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.76, Confianza: 0.59, Lift: 2.11
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_medio
+Soporte: 0.56, Confianza: 0.73, Lift: 1.10
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.55, Confianza: 0.58, Lift: 1.52
+-----
+Regla: Si clouds_cat_medio, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.82, Confianza: 0.67, Lift: 1.30
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.54, Confianza: 0.70, Lift: 1.44
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.81, Confianza: 0.83, Lift: 1.17
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.51, Confianza: 0.79, Lift: 1.35
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_alto, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.65, Lift: 1.54
+-----
+Regla: Si solar_rad_cat_medio, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.50, Confianza: 0.61, Lift: 1.35
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.87, Confianza: 0.61, Lift: 1.34
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.58, Confianza: 0.62, Lift: 1.36
+-----
+Regla: Si wind_gust_spd_cat_alto, t_dni_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.83, Confianza: 0.60, Lift: 1.49
+-----
+Regla: Si solar_rad_cat_medio, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.76, Confianza: 0.67, Lift: 2.11
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.74, Confianza: 0.79, Lift: 1.10
+-----
+Regla: Si solar_rad_cat_bajo, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.67, Confianza: 0.77, Lift: 1.06
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.81, Confianza: 0.83, Lift: 1.29
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.72, Confianza: 0.73, Lift: 1.43
+-----
+Regla: Si slp_cat_medio, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.62, Lift: 1.15
+-----
+Regla: Si clouds_cat_bajo, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.66, Confianza: 0.78, Lift: 2.38
+-----
+Regla: Si wind_gust_spd_cat_alto, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.65, Confianza: 0.82, Lift: 1.07
+-----
+Regla: Si wind_gust_spd_cat_alto, t_dni_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.62, Confianza: 0.87, Lift: 1.53
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, t_dni_cat_alto entonces precip_cat_alto
+Soporte: 0.83, Confianza: 0.71, Lift: 1.18
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_alto, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.77, Lift: 1.26
+-----
+Regla: Si clouds_cat_bajo, slp_cat_medio, t_dni_cat_alto entonces precip_cat_bajo
+Soporte: 0.79, Confianza: 0.67, Lift: 2.37
+-----
+Regla: Si clouds_cat_bajo, slp_cat_medio, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.57, Confianza: 0.87, Lift: 1.07
+-----
+Regla: Si wind_gust_spd_cat_alto, slp_cat_medio, t_dni_cat_alto entonces precip_cat_medio
+Soporte: 0.86, Confianza: 0.84, Lift: 1.42
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.70, Confianza: 0.55, Lift: 1.47
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.64, Confianza: 0.81, Lift: 1.65
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.74, Confianza: 0.85, Lift: 1.60
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.86, Confianza: 0.76, Lift: 2.47
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, wind_dir_cat_sur entonces precip_cat_medio
+Soporte: 0.72, Confianza: 0.84, Lift: 1.30
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.77, Confianza: 0.66, Lift: 2.23
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_medio
+Soporte: 0.60, Confianza: 0.50, Lift: 1.05
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.58, Confianza: 0.56, Lift: 1.53
+-----
+Regla: Si clouds_cat_medio, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.78, Confianza: 0.80, Lift: 1.29
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_alto, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.72, Confianza: 0.67, Lift: 1.67
+-----
+Regla: Si clouds_cat_medio, solar_rad_cat_bajo, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.87, Confianza: 0.70, Lift: 1.42
+-----
+Regla: Si clouds_cat_medio, wind_gust_spd_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.69, Confianza: 0.79, Lift: 1.52
+-----
+Regla: Si solar_rad_cat_medio, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.87, Confianza: 0.50, Lift: 1.33
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.73, Confianza: 0.85, Lift: 1.37
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_alto, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.69, Confianza: 0.53, Lift: 1.84
+-----
+Regla: Si wind_gust_spd_cat_alto, slp_cat_medio, wind_dir_cat_norte entonces precip_cat_medio
+Soporte: 0.68, Confianza: 0.68, Lift: 1.47
+-----
+Regla: Si solar_rad_cat_medio, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.55, Confianza: 0.69, Lift: 2.07
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_alto
+Soporte: 0.78, Confianza: 0.51, Lift: 1.09
+-----
+Regla: Si solar_rad_cat_bajo, slp_cat_medio, wind_dir_cat_sur entonces precip_cat_bajo
+Soporte: 0.80, Confianza: 0.56, Lift: 1.08
+-----
+Regla: Si wind_gust_spd_cat_alto, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_bajo
+Soporte: 0.74, Confianza: 0.59, Lift: 1.11
+-----
+Regla: Si wind_gust_spd_cat_alto, slp_cat_medio, solar_rad_cat_medio entonces precip_cat_medio
+Soporte: 0.77, Confianza: 0.68, Lift: 1.51
+-----
+Regla: Si solar_rad_cat_bajo, wind_gust_spd_cat_alto, slp_cat_medio entonces precip_cat_medio
+Soporte: 0.81, Confianza: 0.58, Lift: 1.26
+-----
+
+Número total de reglas generadas: 394

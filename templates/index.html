@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Interfaz Difusa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Función para actualizar el valor mostrado de cada slider con sus unidades
+        function updateSliderValue(sliderId, labelId, unit) {
+            document.getElementById(labelId).innerText = document.getElementById(sliderId).value + " " + unit;
+        }
+    </script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-6 text-center">Ingrese los valores para cada variable</h1>
+        <form action="/procesar" method="POST" class="space-y-6">
+            {% for feature in input_features %}
+                <div>
+                    <label for="{{ feature }}" class="block text-gray-700 font-semibold mb-2">
+                        {{ friendly_names[feature] }}:
+                    </label>
+                    {% if feature == 'wind_dir_cat' %}
+                        <!-- Select para Dirección del Viento -->
+                        <select name="{{ feature }}" required class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="norte">Norte</option>
+                            <option value="este">Este</option>
+                            <option value="sur">Sur</option>
+                            <option value="oeste">Oeste</option>
+                        </select>
+                    {% else %}
+                        <!-- Slider para otras variables con unidades -->
+                        <input 
+                            type="range" 
+                            name="{{ feature }}" 
+                            id="{{ feature }}_slider" 
+                            {% if feature == 'clouds_cat' %} min="0" max="100" {% endif %}
+                            {% if feature == 'solar_rad_cat' %} min="0" max="500" {% endif %}
+                            {% if feature == 'slp_cat' %} min="0" max="1050" {% endif %}
+                            {% if feature == 'wind_gust_spd_cat' %} min="0" max="20" {% endif %}
+                            {% if feature == 't_dni_cat' %} min="0" max="600" {% endif %}
+                            {% if feature == 't_ghi_cat' %} min="0" max="700" {% endif %}
+                            class="w-full"
+                            step="1" 
+                            oninput="updateSliderValue('{{ feature }}_slider', '{{ feature }}_value', '{{ units_dict[feature] }}')"
+                            required
+                        >
+                        <div class="text-sm text-gray-600 mt-1">
+                            Valor seleccionado: <span id="{{ feature }}_value">50</span> {{ units_dict[feature] }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+            <button type="submit" class="w-full bg-blue-500 text-white font-semibold p-2 rounded hover:bg-blue-600 transition duration-200">
+                Procesar
+            </button>
+        </form>
+    </div>
+</body>
+</html>
